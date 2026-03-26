@@ -1,3 +1,17 @@
+"""
+OMNI-PARALLEL STOCHASTIC MODELER (V16.0)
+-------------------------------------------------------------
+An advanced, multi-core probability density engine designed for quantitative finance 
+and stochastic market modeling. It executes 1-Billion-Trial Monte Carlo simulations 
+across parallel CPU cores to identify high-resonance data nodes in chaotic environments.
+
+Core Architecture:
+- Quad-Core Logic: Evaluates Baseline (Anchor), Momentum (Speed), Mean-Reversion (Deep), and Cross-Asset Leaks (Resonance).
+- High-Performance Computing (HPC): Utilizes `multiprocessing.Pool` for 1B trials with memory-safe sub-chunking.
+- Auto-Calibration: Employs a Bayesian feedback loop to dynamically adjust strategy bias based on the success of prior epochs.
+- Combinatorial Saturation: Generates multi-thousand row matrix buffers for optimal portfolio hedging.
+"""
+
 import os
 import sys
 import time
